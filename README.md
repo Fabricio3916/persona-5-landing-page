@@ -1,1 +1,1 @@
-#a Persona 5 landing page and a birthday gift for my girlfriend
+A Persona 5 landing page and a birthday gift for my girlfriend
