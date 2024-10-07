@@ -146,14 +146,14 @@ header p, h1{
     width: 300px;
     border: solid 4px #FFC300;
     margin: 24px;
-    background-image: url(assets/portraits/portrait-akechi.webp);
+    background-image: url(/assets/portraits/portrait-akechi.webp);
     background-size: 300px;
     background-repeat: no-repeat;
     transition: all 0.5s;
 }
 
 .portrait-akechi:hover{
-    background-image: url(assets/portraits/portrait-akechidark.webp);
+    background-image: url(/assets/portraits/portrait-akechidark.webp);
     background-size: 300px 300px;
     transform: scale(1.1);
 }
