@@ -1,0 +1,159 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background-color: #0A0A0A;
+    height: 100vh;
+}
+
+header p, h1{
+    color: #FFFFFF;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background-color: #E60012;
+    position: sticky;
+    top: 0;
+    z-index: 9;
+    height: 60px;
+}
+
+.menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    margin: 0 12px;
+    transition: 0.5s;
+}
+
+.menu a:hover{
+    color: #0A0A0A;
+}
+
+.menu h2{
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.header-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+    height:100%
+}
+
+.container-text{
+    max-width: 700px;
+}
+
+.container-text h1{
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.container-text p{
+    margin-bottom: 8px;
+}
+
+.header-button{
+    background-color: #E60012 ;
+    color: #FFFFFF;
+    padding: 18px;
+    border-radius: 4px;
+    transition: background-color 0.5s;
+}
+
+.header-button:hover{
+    background-color: rgb(153, 7, 7);
+}
+
+.logo{
+    max-width: 600px;
+}
+
+.members{
+    padding: 24px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.members h2{
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.members-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 24px;
+    width: 100%;
+}
+
+.portrait-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portrait-container h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.portrait{
+    height: 300px;
+    max-width: 300px;
+    object-fit: cover;
+    border: solid 4px #FFC300;
+    margin: 24px;
+    border-radius: 4px;
+    transition: all 0.5s;
+}
+
+.portrait:hover{
+    transform: scale(1.1);
+}
+
+.portrait-akechi{
+    height: 300px;
+    width: 300px;
+    border: solid 4px #FFC300;
+    margin: 24px;
+    background-image: url(assets/portraits/portrait-akechi.webp);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    transition: all 0.5s;
+}
+
+.portrait-akechi:hover{
+    background-image: url(assets/portraits/portrait-akechidark.webp);
+    background-size: 300px 300px;
+    transform: scale(1.1);
+}
