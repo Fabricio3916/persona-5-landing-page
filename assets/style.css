@@ -146,14 +146,14 @@ header p, h1{
     width: 300px;
     border: solid 4px #FFC300;
     margin: 24px;
-    background-image: url(https://fabricio3916.github.io/odin-landing-page-2/assets/portraits/portrait-akechi.webp);
+    background-image: url(https://raw.githubusercontent.com/Fabricio3916/persona-5-landing-page/refs/heads/main/assets/portraits/portrait-akechi.webp);
     background-size: 300px;
     background-repeat: no-repeat;
     transition: all 0.5s;
 }
 
 .portrait-akechi:hover{
-    background-image: url(https://fabricio3916.github.io/odin-landing-page-2/assets/portraits/portrait-akechidark.webp);
+    background-image: url(https://raw.githubusercontent.com/Fabricio3916/persona-5-landing-page/refs/heads/main/assets/portraits/portrait-akechidark.webp);
     background-size: 300px 300px;
     transform: scale(1.1);
 }
