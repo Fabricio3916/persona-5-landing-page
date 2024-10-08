@@ -153,7 +153,9 @@ header p, h1{
 }
 
 .portrait-akechi:hover{
-    background-image: url(https://raw.githubusercontent.com/Fabricio3916/persona-5-landing-page/refs/heads/main/assets/portraits/portrait-akechidark.webp);
+    background-image: url(https://raw.githubusercontent.com/Fabricio3916/persona-5-landing-page/refs/heads/main/assets/portraits/portrait-akechidark.png);
     background-size: 300px 300px;
     transform: scale(1.1);
 }
+
+/*TODO media query when width is less than 920px*/
