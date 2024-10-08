@@ -175,14 +175,6 @@ header p, h1{
     justify-content: center;
 }
 
-.goal-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    flex: 1;
-    max-width: 1300px;
-}
-
 .goal h2, .goal p{
     color: #FFFFFF;
     line-height: 150%;
