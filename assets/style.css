@@ -58,6 +58,7 @@ header p, h1{
     height:100%
 }
 
+
 .container-text{
     max-width: 700px;
     padding: 24px;
@@ -70,8 +71,11 @@ header p, h1{
 
 .container-text p{
     margin-bottom: 8px;
-    flex: 1;
-    
+    color: #FFFFFF;
+    line-height: 150%;
+    font-style: italic;
+    font-size: 22px;
+    padding: 10px 0px;
 }
 
 .header-button{
@@ -154,13 +158,50 @@ header p, h1{
     background-image: url(https://raw.githubusercontent.com/Fabricio3916/persona-5-landing-page/refs/heads/main/assets/portraits/portrait-akechi.webp);
     background-size: 300px;
     background-repeat: no-repeat;
-    transition: all 0.5s;
+    transition: all 0.9s;
 }
 
 .portrait-akechi:hover{
     background-image: url(https://raw.githubusercontent.com/Fabricio3916/persona-5-landing-page/refs/heads/main/assets/portraits/portrait-akechidark.png);
     background-size: 300px 300px;
     transform: scale(1.1);
+}
+
+.goal{
+    background-color: black;
+    padding: 150px 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.goal-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    max-width: 1300px;
+}
+
+.goal h2, .goal p{
+    color: #FFFFFF;
+    line-height: 150%;
+    font-style: italic;
+    font-size: 32px;
+    width: 100%;
+    padding: 10px;
+}
+
+footer{
+    background-color: #E60012;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer h4{
+    color: #FFFFFF;
 }
 
 @media(max-width:700px){
@@ -187,12 +228,31 @@ header p, h1{
         flex: 1;
     }
 
-    .links a, h2{
+    .links a, .links h2{
         font-size: 14px;
         margin: 0 5px;
     }
 
     .header-button{
         margin-top: 12px;
+    }
+}
+
+@media(max-width:550px){
+    
+    .goal{
+        padding: 50px;
+    }
+    .goal h2, .goal p{
+        font-size: 28px;
+        width: 100%;
+    }
+
+
+}
+
+@media(max-height:730px ){
+    .logo{
+        width: 80%;
     }
 }
