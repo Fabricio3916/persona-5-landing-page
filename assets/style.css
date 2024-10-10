@@ -188,6 +188,13 @@ header p, h1{
     padding: 10px;
 }
 
+.gif{
+    height: calc(100vh - 120px);
+    width: 100%;
+    background-image: url(/assets/persona5-joker.gif);
+    background-size: 100% 100%;
+}
+
 footer{
     background-color: #E60012;
     height: 60px;
@@ -240,8 +247,21 @@ footer h4{
         padding: 50px;
     }
     .goal h2, .goal p{
-        font-size: 28px;
+        font-size: 18px;
         width: 100%;
+    }
+
+    .portrait-container{
+        width: 100%;
+    }
+
+    .menu h2, .links a{
+        font-size: 18px;
+        margin: 0;
+    }
+
+    .gif{
+        max-height: 300px;
     }
 
 
